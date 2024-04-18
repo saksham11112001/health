@@ -95,6 +95,7 @@ function Navbar() {
               About
             </a>
           </li>
+
           <li>
             <a onClick={openNav} href="#reviews">
               Reviews
@@ -108,6 +109,11 @@ function Navbar() {
           <li>
             <a onClick={openNav} href="#contact">
               Contact
+            </a>
+          </li>
+          <li>
+            <a onClick={openNav} href="https://an-ant-2004.github.io/Portfolio/">
+              My Portfolio
             </a>
           </li>
         </ul>
