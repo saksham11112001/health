@@ -62,6 +62,11 @@ function Navbar() {
             Doctors
           </a>
         </li>
+        <li>
+            <a onClick={openNav} href="https://an-ant-2004.github.io/Portfolio/">
+              My Portfolio
+            </a>
+          </li>
       </ul>
 
       <button
@@ -80,6 +85,11 @@ function Navbar() {
         </div>
 
         <ul className="mobile-navbar-links">
+        <li>
+            <a onClick={openNav} href="https://an-ant-2004.github.io/Portfolio/">
+              My Portfolio
+            </a>
+          </li>
           <li>
             <Link onClick={openNav} to="/">
               Home
@@ -111,11 +121,7 @@ function Navbar() {
               Contact
             </a>
           </li>
-          <li>
-            <a onClick={openNav} href="https://an-ant-2004.github.io/Portfolio/">
-              My Portfolio
-            </a>
-          </li>
+          
         </ul>
       </div>
 
